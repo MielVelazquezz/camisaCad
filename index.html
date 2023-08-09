@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title> Game </title>
+</head>
+
+<body>
+    <header>
+        <h1>E-commerce de Camisetas</h1>
+    </header>
+    <main>
+        <div class="form-container">
+            <h2>Cadastrar Camiseta</h2>
+            <form id="shirt-form">
+                <label for="title">Título:</label>
+                <input type="text" id="title" required>
+                <label for="description">Descrição:</label>
+                <textarea id="description" required></textarea>
+                <label for="price">Preço:</label>
+                <input type="number" step="0.01" id="price" required>
+                <label for="corCamisa">Cor da Camiseta</label>
+                <input type="color" id="corCamisa">
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+        <div class="shirt-list">
+            <h2 class="txt_box2">Camisetas Cadastradas</h2>
+            <ul id="shirt-list"></ul>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+<script src="js/código.js"></script>
+
+</html>

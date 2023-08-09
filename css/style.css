@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.774);
+}
+
+header {
+  background-color: #00571600;
+  color: rgb(223, 223, 223);
+  text-align: center;
+  padding: 1rem 0;
+  width: 80%;
+  height: 80px;
+  border-radius: 20px;
+  margin: 1% 10%;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.form-container {
+  color: white;
+  width: 40%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.shirt-list {
+  color: white;
+  width: 50%;
+  border: 1px solid white;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.txt_box2{
+  margin: 2%;
+}
+
+form label,
+form input,
+form textarea {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  background-color: #313030a8;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+#imagemCamisa{
+  width: 30%;
+  height: 300px;
+  
+}
+#imagemCamisa img{
+  max-width: 100%;
+}
